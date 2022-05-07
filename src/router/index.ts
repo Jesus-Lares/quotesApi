@@ -8,7 +8,7 @@ export default (router: Router): void => {
     router[method](path, handler);
   });
 
-  router.use(env.initialRoute, (req: Request, res: Response) => {
+  router.use(env.initialRoute, (_: Request, res: Response) => {
     res.status(200).send("API QUOTES");
   });
 };

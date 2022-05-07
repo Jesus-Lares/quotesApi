@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
+    jest: true,
   },
   extends: [
     "airbnb-base",
@@ -23,6 +24,12 @@ module.exports = {
       {
         js: "never",
         ts: "never",
+      },
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        devDependencies: ["**/*.spec.ts", "**/*.spec.tsx"],
       },
     ],
   },
