@@ -1,6 +1,6 @@
 {
   "name": "quotes_api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "repository": "https://github.com/Jesus-Lares/quotesApi.git",
   "author": "Jesús Lares Contreras <jesus.lares2000@gmail.com>",
