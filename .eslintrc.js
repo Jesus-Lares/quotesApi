@@ -17,5 +17,20 @@ module.exports = {
   ],
   rules: {
     quotes: ["error", "double"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        ts: "never",
+      },
+    ],
+  },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
   },
 };
