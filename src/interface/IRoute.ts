@@ -1,6 +1,11 @@
 import { RequestHandler } from "express";
 
-export type EnumMethodRoute = "get" | "post" | "put" | "delete";
+export enum EnumMethodRoute {
+  GET = "get",
+  POST = "post",
+  PUT = "put",
+  DELETE = "delete",
+}
 
 export interface IRoute {
   path: string
