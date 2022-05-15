@@ -23,4 +23,5 @@ export default {
   apiVersion: process.env.API_VERSION,
   initialRoute: `/api/${process.env.API_VERSION}`,
   databaseUrl: process.env.DATABASE_URL,
+  secretToken: process.env.SECRET,
 };
