@@ -3,7 +3,7 @@ import StatusCode from "http-status-codes";
 import JWT from "../../../../config/jwt";
 import CreateUserUseCase from "../useCases/createUser";
 import { IUser } from "../../domain/IUser";
-import { ErrorMessagePostUser, MessagePostUser } from "../../../../utils/errorMessageUser";
+import { ErrorMessagePostUser, MessagePostUser } from "../../../../utils/messageUser";
 
 class UserController {
   async store(req: Request, res: Response): Promise<Response> {

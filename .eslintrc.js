@@ -22,6 +22,7 @@ module.exports = {
     "no-unused-vars": "off",
     "class-methods-use-this": "off",
     "no-underscore-dangle": "off",
+    "no-console": "off",
     "import/extensions": [
       "error",
       "ignorePackages",

@@ -6,7 +6,7 @@ import app from "../../app";
 import httpServer from "../../index";
 import Database from "../../config/database";
 import UserFactory from "../mock/factories/userFactory";
-import { MessagePostUser } from "../../utils/errorMessageUser";
+import { MessagePostUser } from "../../utils/messageUser";
 
 describe("User routes", () => {
   let db: any;
