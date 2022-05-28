@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - development
+      - feat/githubWorkflows
 
 jobs:
   deploy:
