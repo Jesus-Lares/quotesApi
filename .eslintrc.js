@@ -18,6 +18,11 @@ module.exports = {
   ],
   rules: {
     quotes: ["error", "double"],
+    "no-shadow": "off",
+    "no-unused-vars": "off",
+    "class-methods-use-this": "off",
+    "no-underscore-dangle": "off",
+    "no-console": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -28,9 +33,7 @@ module.exports = {
     ],
     "import/no-extraneous-dependencies": [
       "error",
-      {
-        devDependencies: ["**/*.spec.ts", "**/*.spec.tsx"],
-      },
+      { devDependencies: true },
     ],
   },
   settings: {
