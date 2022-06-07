@@ -2,7 +2,7 @@ import { MysqlError } from "mysql";
 
 import Database from "../../config/database";
 import { Collections, createConstants } from "../../utils/constants";
-import { ErrorMessagePostUser } from "../../utils/errorMessageUser";
+import { ErrorMessagePostUser } from "../../utils/messageUser";
 import { IRepository } from "../../interface/IRepository";
 import { IUser } from "../user/domain/IUser";
 import { IUserModel } from "../user/domain/IUserModel";
