@@ -9,7 +9,17 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
+    
+    env:
+      API_VERSION: ${{ secrets.API_VERSION }}
+      INITIAL_ROUTE: ${{ secrets.INITIAL_ROUTE }}
+      IP_SERVER: ${{ secrets.IP_SERVER }}
+      PORT: ${{ secrets.PORT }}
+      SECRET: ${{ secrets.PORT }}
+      DATABASE: ${{ secrets.DATABASE }}
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+
     steps:
       - uses: actions/checkout@v2
         with: 
